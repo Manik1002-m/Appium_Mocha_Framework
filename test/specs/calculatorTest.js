@@ -20,4 +20,22 @@ describe("Motorola Calculator Tests", () => {
     const result = await calculatorPage.getResult();
     expect(result).to.equal("5");
   });
+
+  it("should subtract 9 - 4 correctly", async () => {
+  await calculatorPage.subtractTwoNumbers(9, 4);
+  const result = await calculatorPage.getResult();
+  expect(result).to.equal("5");
+});
+
+it("should multiply 6 * 7 correctly", async () => {
+  await calculatorPage.multiplyTwoNumbers(6, 7);
+  const result = await calculatorPage.getResult();
+  expect(result).to.equal("42");
+});
+
+it("should divide 8 ÷ 2 correctly", async () => {
+  await calculatorPage.divideTwoNumbers(8, 2);
+  const result = await calculatorPage.getResult();
+  expect(result).to.equal("4");
+});
 });

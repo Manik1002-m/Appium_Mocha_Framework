@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "mocha ./test/specs/**/*.js --timeout 60000",
+    "test": "mocha ./test/specs/**/*.js --timeout 60000 ",
     "allure:generate": "allure generate ./reports/allure-results --clean -o ./reports/allure-report",
     "allure:open": "allure open ./reports/allure-report"
   },

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1756376870703' stop='1756376899541'>
+    <name>Motorola Calculator Tests</name>
+    <title>Motorola Calculator Tests</title>
+    <test-cases>
+        <test-case start='1756376881047' status='passed' stop='1756376886542'>
+            <name>should add 2 + 3 correctly</name>
+            <title>should add 2 + 3 correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1756376886543' status='passed' stop='1756376890509'>
+            <name>should subtract 9 - 4 correctly</name>
+            <title>should subtract 9 - 4 correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1756376890509' status='passed' stop='1756376894356'>
+            <name>should multiply 6 * 7 correctly</name>
+            <title>should multiply 6 * 7 correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1756376894357' status='passed' stop='1756376898638'>
+            <name>should divide 8 ÷ 2 correctly</name>
+            <title>should divide 8 ÷ 2 correctly</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
