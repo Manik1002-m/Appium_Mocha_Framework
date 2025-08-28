@@ -1,0 +1,21 @@
+{
+  "name": "appium-mocha-framework",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./test/specs/**/*.js --timeout 60000",
+    "allure:generate": "allure generate ./reports/allure-results --clean -o ./reports/allure-report",
+    "allure:open": "allure open ./reports/allure-report"
+  },
+  "dependencies": {
+    "allure-mocha": "^2.0.0",
+    "appium": "^2.11.0",
+    "chai": "^5.1.0",
+    "mocha": "^10.0.0",
+    "wd": "^1.14.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.34.1",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
