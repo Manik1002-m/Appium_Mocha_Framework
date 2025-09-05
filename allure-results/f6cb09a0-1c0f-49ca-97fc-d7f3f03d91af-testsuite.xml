@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1756273684317' stop='1756273686390'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1756461107820' stop='1756461109878'>
     <name>Motorola Calculator Tests</name>
     <title>Motorola Calculator Tests</title>
     <test-cases>
-        <test-case start='1756273686332' status='broken' stop='1756273686390'>
+        <test-case start='1756461109846' status='broken' stop='1756461109878'>
             <name>"before all" hook for "should add 2 + 3 correctly"</name>
             <title>"before all" hook for "should add 2 + 3 correctly"</title>
             <labels/>

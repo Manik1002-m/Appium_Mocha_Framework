@@ -38,4 +38,10 @@ it("should divide 8 ÷ 2 correctly", async () => {
   const result = await calculatorPage.getResult();
   expect(result).to.equal("4");
 });
+
+it("should divide 5 / 0 correctly", async () => {
+  await calculatorPage.divideTwoNumbersZero(5, 0);
+  const result = await calculatorPage.getResult();
+  expect(result).to.equal("Cannot divide by zero");
+})
 });
